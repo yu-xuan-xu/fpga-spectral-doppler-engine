@@ -1,0 +1,17 @@
+{
+  "profile": "steady",
+  "sample_rate_hz": 20000,
+  "fft_size": 256,
+  "frame_count": 4,
+  "carrier_hz": 5000000.0,
+  "sound_speed_m_s": 1540.0,
+  "probe_angle_deg": 0.0,
+  "velocity_m_s": 0.1925,
+  "signal_amplitude": 0.55,
+  "snr_db": null,
+  "clutter_ratio": 0.5,
+  "clutter_hz": 20.0,
+  "initial_phase_rad": 0.0,
+  "pulse_rate_hz": 2.0,
+  "seed": 11
+}

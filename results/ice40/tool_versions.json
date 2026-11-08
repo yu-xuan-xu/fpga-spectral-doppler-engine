@@ -1,0 +1,11 @@
+{
+  "architecture": "arm64",
+  "cocotb": "2.0.1",
+  "icepack": "installed; CLI does not report a version",
+  "iceprog": "installed; CLI does not report a version",
+  "nextpnr": "\"nextpnr-ice40\" -- Next Generation Place and Route (Version )",
+  "operating_system": "macOS-15.3.1-arm64-arm-64bit",
+  "python": "3.11.1",
+  "simulator": "Icarus Verilog version 13.0 (stable) (v13_0)",
+  "yosys": "Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 17.0.0.17000604)"
+}

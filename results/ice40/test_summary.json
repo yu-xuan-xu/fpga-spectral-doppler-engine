@@ -1,0 +1,52 @@
+{
+  "algorithm_regression": {
+    "alias_count": 0,
+    "configuration_count": 1800,
+    "direction_accuracy_high_snr": 1.0,
+    "fixed_float_within_one_bin_high_snr_fraction": 1.0,
+    "low_confidence_count": 944,
+    "maximum_saturation_count": 0,
+    "mean_absolute_error_m_s_scored": 0.000392438116292754,
+    "scored_count": 856,
+    "transition_count": 360
+  },
+  "directed_signed_bin_cases": 10,
+  "overall_automated_checks": {
+    "failed": 0,
+    "passed": 43,
+    "total": 43
+  },
+  "packet_crc_cases": 3,
+  "pytest": {
+    "cocotb_runner_tests": 3,
+    "failed": 0,
+    "passed": 40,
+    "skipped": 0,
+    "total": 40
+  },
+  "python_algorithm_configurations": 1800,
+  "recorded_random_seeds": {
+    "algorithm_matrix": [
+      1,
+      17,
+      101
+    ],
+    "cocotb_core": [
+      41
+    ],
+    "model_unit_tests": [
+      23,
+      99
+    ]
+  },
+  "standalone_systemverilog": {
+    "cases": {
+      "doppler_core": true,
+      "fft_iterative_256": true,
+      "signed_velocity_mapper": true
+    },
+    "failed": 0,
+    "passed": 3,
+    "total": 3
+  }
+}

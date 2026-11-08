@@ -1,0 +1,2807 @@
+{
+  "bins": {
+    "algorithm.amplitude/low": {
+      "count": 28,
+      "first_cycle": 31929,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.amplitude/near_full_scale": {
+      "count": 39,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.amplitude/nominal": {
+      "count": 33,
+      "first_cycle": 47971,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.clutter/high": {
+      "count": 31,
+      "first_cycle": 80560,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.clutter/low": {
+      "count": 25,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.clutter/medium": {
+      "count": 21,
+      "first_cycle": 161099,
+      "first_scenario": "random_seed_4109",
+      "first_seed": 4109,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.clutter/none": {
+      "count": 23,
+      "first_cycle": 112555,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.direction/negative": {
+      "count": 50,
+      "first_cycle": 112555,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.direction/positive": {
+      "count": 46,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.direction/zero_or_near_zero": {
+      "count": 11,
+      "first_cycle": 177190,
+      "first_scenario": "random_seed_4110",
+      "first_seed": 4110,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.peak_bin_range/-128_to_-96": {
+      "count": 19,
+      "first_cycle": 225480,
+      "first_scenario": "random_seed_4113",
+      "first_seed": 4113,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.peak_bin_range/-32_to_-1": {
+      "count": 18,
+      "first_cycle": 112555,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.peak_bin_range/-95_to_-33": {
+      "count": 13,
+      "first_cycle": 258135,
+      "first_scenario": "random_seed_4115",
+      "first_seed": 4115,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.peak_bin_range/0": {
+      "count": 11,
+      "first_cycle": 177190,
+      "first_scenario": "random_seed_4110",
+      "first_seed": 4110,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.peak_bin_range/1_to_32": {
+      "count": 12,
+      "first_cycle": 64315,
+      "first_scenario": "random_seed_4103",
+      "first_seed": 4103,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.peak_bin_range/33_to_95": {
+      "count": 19,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.peak_bin_range/96_to_127": {
+      "count": 15,
+      "first_cycle": 31929,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.snr/0_to_9": {
+      "count": 20,
+      "first_cycle": 64315,
+      "first_scenario": "random_seed_4103",
+      "first_seed": 4103,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.snr/10_to_19": {
+      "count": 27,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.snr/20_to_29": {
+      "count": 17,
+      "first_cycle": 112555,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.snr/30_plus": {
+      "count": 22,
+      "first_cycle": 31929,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.snr/lt_0": {
+      "count": 21,
+      "first_cycle": 80560,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.special_signal/exact_tie": {
+      "count": 1,
+      "first_cycle": 318845,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.special_signal/full_scale_negative": {
+      "count": 1,
+      "first_cycle": 350613,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.special_signal/full_scale_positive": {
+      "count": 1,
+      "first_cycle": 334729,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.special_signal/near_nyquist_negative": {
+      "count": 1,
+      "first_cycle": 382381,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.special_signal/near_nyquist_positive": {
+      "count": 1,
+      "first_cycle": 366497,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "algorithm.special_signal/zero": {
+      "count": 1,
+      "first_cycle": 302961,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.address_response/misaligned_address_x_slverr": {
+      "count": 1,
+      "first_cycle": 175698,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.address_response/ro_write_x_slverr": {
+      "count": 1,
+      "first_cycle": 175704,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.address_response/undefined_address_x_slverr": {
+      "count": 1,
+      "first_cycle": 175701,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.address_response/valid_ro_read_x_okay": {
+      "count": 354,
+      "first_cycle": 15978,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.address_response/valid_rw_read_x_okay": {
+      "count": 293,
+      "first_cycle": 37,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.address_response/valid_rw_write_x_okay": {
+      "count": 635,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.amplitude_saturation/low_x_not_saturated": {
+      "count": 28,
+      "first_cycle": 31929,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.amplitude_saturation/near_full_scale_x_not_saturated": {
+      "count": 39,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.amplitude_saturation/nominal_x_not_saturated": {
+      "count": 33,
+      "first_cycle": 47971,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_backpressure/negative_x_long": {
+      "count": 14,
+      "first_cycle": 161099,
+      "first_scenario": "random_seed_4109",
+      "first_seed": 4109,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_backpressure/negative_x_none": {
+      "count": 6,
+      "first_cycle": 274110,
+      "first_scenario": "random_seed_4116",
+      "first_seed": 4116,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_backpressure/negative_x_short": {
+      "count": 30,
+      "first_cycle": 112555,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_backpressure/positive_x_long": {
+      "count": 13,
+      "first_cycle": 209512,
+      "first_scenario": "random_seed_4112",
+      "first_seed": 4112,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_backpressure/positive_x_none": {
+      "count": 7,
+      "first_cycle": 31929,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_backpressure/positive_x_short": {
+      "count": 26,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_backpressure/zero_or_near_zero_x_long": {
+      "count": 1,
+      "first_cycle": 255309,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_backpressure/zero_or_near_zero_x_none": {
+      "count": 6,
+      "first_cycle": 871418,
+      "first_scenario": "random_seed_4153",
+      "first_seed": 4153,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_backpressure/zero_or_near_zero_x_short": {
+      "count": 4,
+      "first_cycle": 177190,
+      "first_scenario": "random_seed_4110",
+      "first_seed": 4110,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/negative_x_high": {
+      "count": 12,
+      "first_cycle": 225480,
+      "first_scenario": "random_seed_4113",
+      "first_seed": 4113,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/negative_x_low": {
+      "count": 10,
+      "first_cycle": 128854,
+      "first_scenario": "random_seed_4107",
+      "first_seed": 4107,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/negative_x_medium": {
+      "count": 13,
+      "first_cycle": 161099,
+      "first_scenario": "random_seed_4109",
+      "first_seed": 4109,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/negative_x_none": {
+      "count": 13,
+      "first_cycle": 112555,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/positive_x_high": {
+      "count": 17,
+      "first_cycle": 80560,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/positive_x_low": {
+      "count": 13,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/positive_x_medium": {
+      "count": 7,
+      "first_cycle": 306116,
+      "first_scenario": "random_seed_4118",
+      "first_seed": 4118,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/positive_x_none": {
+      "count": 9,
+      "first_cycle": 144824,
+      "first_scenario": "random_seed_4108",
+      "first_seed": 4108,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/zero_or_near_zero_x_high": {
+      "count": 2,
+      "first_cycle": 984637,
+      "first_scenario": "random_seed_4160",
+      "first_seed": 4160,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/zero_or_near_zero_x_low": {
+      "count": 2,
+      "first_cycle": 177190,
+      "first_scenario": "random_seed_4110",
+      "first_seed": 4110,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/zero_or_near_zero_x_medium": {
+      "count": 1,
+      "first_cycle": 871418,
+      "first_scenario": "random_seed_4153",
+      "first_seed": 4153,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_clutter/zero_or_near_zero_x_none": {
+      "count": 1,
+      "first_cycle": 1194397,
+      "first_scenario": "random_seed_4173",
+      "first_seed": 4173,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/negative_x_0_to_9": {
+      "count": 9,
+      "first_cycle": 161099,
+      "first_scenario": "random_seed_4109",
+      "first_seed": 4109,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/negative_x_10_to_19": {
+      "count": 11,
+      "first_cycle": 322792,
+      "first_scenario": "random_seed_4119",
+      "first_seed": 4119,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/negative_x_20_to_29": {
+      "count": 9,
+      "first_cycle": 112555,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/negative_x_30_plus": {
+      "count": 10,
+      "first_cycle": 225480,
+      "first_scenario": "random_seed_4113",
+      "first_seed": 4113,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/negative_x_lt_0": {
+      "count": 11,
+      "first_cycle": 128854,
+      "first_scenario": "random_seed_4107",
+      "first_seed": 4107,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/positive_x_0_to_9": {
+      "count": 9,
+      "first_cycle": 64315,
+      "first_scenario": "random_seed_4103",
+      "first_seed": 4103,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/positive_x_10_to_19": {
+      "count": 13,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/positive_x_20_to_29": {
+      "count": 4,
+      "first_cycle": 144824,
+      "first_scenario": "random_seed_4108",
+      "first_seed": 4108,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/positive_x_30_plus": {
+      "count": 11,
+      "first_cycle": 31929,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/positive_x_lt_0": {
+      "count": 9,
+      "first_cycle": 80560,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/zero_or_near_zero_x_0_to_9": {
+      "count": 2,
+      "first_cycle": 871418,
+      "first_scenario": "random_seed_4153",
+      "first_seed": 4153,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/zero_or_near_zero_x_10_to_19": {
+      "count": 3,
+      "first_cycle": 1194397,
+      "first_scenario": "random_seed_4173",
+      "first_seed": 4173,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/zero_or_near_zero_x_20_to_29": {
+      "count": 4,
+      "first_cycle": 177190,
+      "first_scenario": "random_seed_4110",
+      "first_seed": 4110,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/zero_or_near_zero_x_30_plus": {
+      "count": 1,
+      "first_cycle": 255309,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.direction_snr/zero_or_near_zero_x_lt_0": {
+      "count": 1,
+      "first_cycle": 191705,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.enable_frame_state/clear_x_collecting": {
+      "count": 25,
+      "first_cycle": 16098,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.enable_frame_state/clear_x_idle": {
+      "count": 1,
+      "first_cycle": 159353,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.enable_frame_state/set_x_collecting": {
+      "count": 25,
+      "first_cycle": 16102,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.enable_frame_state/set_x_idle": {
+      "count": 21,
+      "first_cycle": 23,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.frame_reset/reset_aborted_x_collecting": {
+      "count": 1,
+      "first_cycle": 97,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.frame_reset/reset_aborted_x_processing": {
+      "count": 1,
+      "first_cycle": 460,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.frame_reset/reset_aborted_x_result_stalled": {
+      "count": 1,
+      "first_cycle": 16346,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.irq_clear_result/clear_only": {
+      "count": 1,
+      "first_cycle": 111688,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.irq_clear_result/clear_x_result": {
+      "count": 1,
+      "first_cycle": 127572,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.irq_enable_result/disabled": {
+      "count": 54,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.irq_enable_result/enabled": {
+      "count": 46,
+      "first_cycle": 31929,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.irq_pending_soft_reset/not_pending": {
+      "count": 55,
+      "first_cycle": 32049,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.irq_pending_soft_reset/pending": {
+      "count": 1,
+      "first_cycle": 127575,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.legal_output_stall/0": {
+      "count": 30,
+      "first_cycle": 31921,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.legal_output_stall/1": {
+      "count": 1,
+      "first_cycle": 32230,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.legal_output_stall/16-63": {
+      "count": 13,
+      "first_cycle": 161091,
+      "first_scenario": "random_seed_4109",
+      "first_seed": 4109,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.legal_output_stall/2-3": {
+      "count": 24,
+      "first_cycle": 80552,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.legal_output_stall/4-15": {
+      "count": 39,
+      "first_cycle": 15976,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.legal_output_stall/64+": {
+      "count": 15,
+      "first_cycle": 322784,
+      "first_scenario": "random_seed_4119",
+      "first_seed": 4119,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.order_bstall/aw_before_w_x_0": {
+      "count": 13,
+      "first_cycle": 128880,
+      "first_scenario": "random_seed_4108",
+      "first_seed": 4108,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.order_bstall/aw_before_w_x_16+": {
+      "count": 10,
+      "first_cycle": 258172,
+      "first_scenario": "random_seed_4116",
+      "first_seed": 4116,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.order_bstall/aw_before_w_x_2-3": {
+      "count": 3,
+      "first_cycle": 968726,
+      "first_scenario": "random_seed_4160",
+      "first_seed": 4160,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.order_bstall/same_cycle_x_0": {
+      "count": 499,
+      "first_cycle": 40,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.order_bstall/same_cycle_x_16+": {
+      "count": 24,
+      "first_cycle": 48002,
+      "first_scenario": "random_seed_4103",
+      "first_seed": 4103,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.order_bstall/same_cycle_x_2-3": {
+      "count": 16,
+      "first_cycle": 31948,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.order_bstall/w_before_aw_x_0": {
+      "count": 19,
+      "first_cycle": 112576,
+      "first_scenario": "random_seed_4107",
+      "first_seed": 4107,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.order_bstall/w_before_aw_x_16+": {
+      "count": 14,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.order_bstall/w_before_aw_x_2-3": {
+      "count": 7,
+      "first_cycle": 96522,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-128_to_-96_x_0_to_9": {
+      "count": 2,
+      "first_cycle": 693752,
+      "first_scenario": "random_seed_4142",
+      "first_seed": 4142,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-128_to_-96_x_10_to_19": {
+      "count": 4,
+      "first_cycle": 322792,
+      "first_scenario": "random_seed_4119",
+      "first_seed": 4119,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-128_to_-96_x_20_to_29": {
+      "count": 3,
+      "first_cycle": 661733,
+      "first_scenario": "random_seed_4140",
+      "first_seed": 4140,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-128_to_-96_x_30_plus": {
+      "count": 6,
+      "first_cycle": 225480,
+      "first_scenario": "random_seed_4113",
+      "first_seed": 4113,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-128_to_-96_x_lt_0": {
+      "count": 4,
+      "first_cycle": 516616,
+      "first_scenario": "random_seed_4131",
+      "first_seed": 4131,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-32_to_-1_x_0_to_9": {
+      "count": 3,
+      "first_cycle": 161099,
+      "first_scenario": "random_seed_4109",
+      "first_seed": 4109,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-32_to_-1_x_10_to_19": {
+      "count": 2,
+      "first_cycle": 484106,
+      "first_scenario": "random_seed_4129",
+      "first_seed": 4129,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-32_to_-1_x_20_to_29": {
+      "count": 5,
+      "first_cycle": 112555,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-32_to_-1_x_30_plus": {
+      "count": 2,
+      "first_cycle": 532553,
+      "first_scenario": "random_seed_4132",
+      "first_seed": 4132,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-32_to_-1_x_lt_0": {
+      "count": 6,
+      "first_cycle": 128854,
+      "first_scenario": "random_seed_4107",
+      "first_seed": 4107,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-95_to_-33_x_0_to_9": {
+      "count": 4,
+      "first_cycle": 274110,
+      "first_scenario": "random_seed_4116",
+      "first_seed": 4116,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-95_to_-33_x_10_to_19": {
+      "count": 5,
+      "first_cycle": 338755,
+      "first_scenario": "random_seed_4120",
+      "first_seed": 4120,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-95_to_-33_x_20_to_29": {
+      "count": 1,
+      "first_cycle": 287077,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-95_to_-33_x_30_plus": {
+      "count": 2,
+      "first_cycle": 258135,
+      "first_scenario": "random_seed_4115",
+      "first_seed": 4115,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/-95_to_-33_x_lt_0": {
+      "count": 1,
+      "first_cycle": 271193,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/0_x_0_to_9": {
+      "count": 2,
+      "first_cycle": 871418,
+      "first_scenario": "random_seed_4153",
+      "first_seed": 4153,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/0_x_10_to_19": {
+      "count": 3,
+      "first_cycle": 1194397,
+      "first_scenario": "random_seed_4173",
+      "first_seed": 4173,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/0_x_20_to_29": {
+      "count": 4,
+      "first_cycle": 177190,
+      "first_scenario": "random_seed_4110",
+      "first_seed": 4110,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/0_x_30_plus": {
+      "count": 1,
+      "first_cycle": 255309,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/0_x_lt_0": {
+      "count": 1,
+      "first_cycle": 191705,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/1_to_32_x_0_to_9": {
+      "count": 5,
+      "first_cycle": 64315,
+      "first_scenario": "random_seed_4103",
+      "first_seed": 4103,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/1_to_32_x_10_to_19": {
+      "count": 4,
+      "first_cycle": 710140,
+      "first_scenario": "random_seed_4143",
+      "first_seed": 4143,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/1_to_32_x_20_to_29": {
+      "count": 1,
+      "first_cycle": 1049414,
+      "first_scenario": "random_seed_4164",
+      "first_seed": 4164,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/1_to_32_x_30_plus": {
+      "count": 1,
+      "first_cycle": 855462,
+      "first_scenario": "random_seed_4152",
+      "first_seed": 4152,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/1_to_32_x_lt_0": {
+      "count": 1,
+      "first_cycle": 96505,
+      "first_scenario": "random_seed_4105",
+      "first_seed": 4105,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/33_to_95_x_0_to_9": {
+      "count": 3,
+      "first_cycle": 290093,
+      "first_scenario": "random_seed_4117",
+      "first_seed": 4117,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/33_to_95_x_10_to_19": {
+      "count": 6,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/33_to_95_x_20_to_29": {
+      "count": 2,
+      "first_cycle": 144824,
+      "first_scenario": "random_seed_4108",
+      "first_seed": 4108,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/33_to_95_x_30_plus": {
+      "count": 6,
+      "first_cycle": 47971,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/33_to_95_x_lt_0": {
+      "count": 2,
+      "first_cycle": 597201,
+      "first_scenario": "random_seed_4136",
+      "first_seed": 4136,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/96_to_127_x_0_to_9": {
+      "count": 1,
+      "first_cycle": 1000715,
+      "first_scenario": "random_seed_4161",
+      "first_seed": 4161,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/96_to_127_x_10_to_19": {
+      "count": 3,
+      "first_cycle": 758523,
+      "first_scenario": "random_seed_4146",
+      "first_seed": 4146,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/96_to_127_x_20_to_29": {
+      "count": 1,
+      "first_cycle": 435547,
+      "first_scenario": "random_seed_4126",
+      "first_seed": 4126,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/96_to_127_x_30_plus": {
+      "count": 4,
+      "first_cycle": 31929,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.peak_range_snr/96_to_127_x_lt_0": {
+      "count": 6,
+      "first_cycle": 80560,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.soft_reset_state/after_result": {
+      "count": 1,
+      "first_cycle": 175695,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.soft_reset_state/collecting": {
+      "count": 26,
+      "first_cycle": 32049,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.soft_reset_state/idle": {
+      "count": 1,
+      "first_cycle": 159362,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.soft_reset_state/irq_pending": {
+      "count": 1,
+      "first_cycle": 127575,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.soft_reset_state/processing": {
+      "count": 26,
+      "first_cycle": 48398,
+      "first_scenario": "random_seed_4103",
+      "first_seed": 4103,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "cross.soft_reset_state/result_stalled": {
+      "count": 1,
+      "first_cycle": 143461,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "irq.behavior/clear_and_result_same_cycle": {
+      "count": 1,
+      "first_cycle": 127572,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "irq.behavior/enable_with_status_pending": {
+      "count": 1,
+      "first_cycle": 111683,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "irq.behavior/global_reset_while_pending": {
+      "count": 1,
+      "first_cycle": 159344,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "irq.behavior/multiple_results_before_clear": {
+      "count": 1,
+      "first_cycle": 95794,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "irq.behavior/result_while_disabled": {
+      "count": 54,
+      "first_cycle": 15984,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "irq.behavior/result_while_enabled": {
+      "count": 46,
+      "first_cycle": 31929,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "irq.behavior/soft_reset_while_pending": {
+      "count": 1,
+      "first_cycle": 127572,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "irq.behavior/software_clear": {
+      "count": 100,
+      "first_cycle": 15987,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "irq.behavior/write_zero": {
+      "count": 33,
+      "first_cycle": 31932,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.address_type/misaligned_address": {
+      "count": 1,
+      "first_cycle": 175698,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.address_type/ro_write": {
+      "count": 1,
+      "first_cycle": 175704,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.address_type/undefined_address": {
+      "count": 1,
+      "first_cycle": 175701,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.address_type/valid_ro_read": {
+      "count": 354,
+      "first_cycle": 15978,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.address_type/valid_rw_read": {
+      "count": 293,
+      "first_cycle": 37,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.address_type/valid_rw_write": {
+      "count": 635,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.aw_w_delay/0": {
+      "count": 554,
+      "first_cycle": 40,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.aw_w_delay/1": {
+      "count": 6,
+      "first_cycle": 677728,
+      "first_scenario": "random_seed_4142",
+      "first_seed": 4142,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.aw_w_delay/16+": {
+      "count": 11,
+      "first_cycle": 322826,
+      "first_scenario": "random_seed_4120",
+      "first_seed": 4120,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.aw_w_delay/2-3": {
+      "count": 27,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.aw_w_delay/4-15": {
+      "count": 40,
+      "first_cycle": 112576,
+      "first_scenario": "random_seed_4107",
+      "first_seed": 4107,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.b_stall_length/0": {
+      "count": 531,
+      "first_cycle": 40,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.b_stall_length/1": {
+      "count": 3,
+      "first_cycle": 175711,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.b_stall_length/16+": {
+      "count": 48,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.b_stall_length/2-3": {
+      "count": 26,
+      "first_cycle": 31948,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.b_stall_length/4-15": {
+      "count": 30,
+      "first_cycle": 80588,
+      "first_scenario": "random_seed_4105",
+      "first_seed": 4105,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.r_stall_length/0": {
+      "count": 569,
+      "first_cycle": 15978,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.r_stall_length/1": {
+      "count": 19,
+      "first_cycle": 193534,
+      "first_scenario": "random_seed_4112",
+      "first_seed": 4112,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.r_stall_length/16+": {
+      "count": 25,
+      "first_cycle": 16016,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.r_stall_length/2-3": {
+      "count": 13,
+      "first_cycle": 209532,
+      "first_scenario": "random_seed_4113",
+      "first_seed": 4113,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.r_stall_length/4-15": {
+      "count": 21,
+      "first_cycle": 37,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.response_type/okay": {
+      "count": 1282,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.response_type/slverr": {
+      "count": 3,
+      "first_cycle": 175698,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.side_effect/counter_read": {
+      "count": 101,
+      "first_cycle": 15978,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.side_effect/enable_clear": {
+      "count": 83,
+      "first_cycle": 16098,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.side_effect/enable_set": {
+      "count": 202,
+      "first_cycle": 43,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.side_effect/irq_disable": {
+      "count": 54,
+      "first_cycle": 40,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.side_effect/irq_enable": {
+      "count": 48,
+      "first_cycle": 16019,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.side_effect/irq_w1c": {
+      "count": 102,
+      "first_cycle": 15987,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.side_effect/scratch_partial_update": {
+      "count": 94,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.side_effect/snapshot_read": {
+      "count": 201,
+      "first_cycle": 15980,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.side_effect/soft_reset_write_one": {
+      "count": 56,
+      "first_cycle": 32051,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.write_ordering/aw_before_w": {
+      "count": 36,
+      "first_cycle": 128880,
+      "first_scenario": "random_seed_4108",
+      "first_seed": 4108,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.write_ordering/same_cycle": {
+      "count": 554,
+      "first_cycle": 40,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.write_ordering/w_before_aw": {
+      "count": 48,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/0000": {
+      "count": 6,
+      "first_cycle": 193531,
+      "first_scenario": "random_seed_4112",
+      "first_seed": 4112,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/0001": {
+      "count": 6,
+      "first_cycle": 209527,
+      "first_scenario": "random_seed_4113",
+      "first_seed": 4113,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/0010": {
+      "count": 6,
+      "first_cycle": 225522,
+      "first_scenario": "random_seed_4114",
+      "first_seed": 4114,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/0011": {
+      "count": 6,
+      "first_cycle": 241830,
+      "first_scenario": "random_seed_4115",
+      "first_seed": 4115,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/0100": {
+      "count": 7,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/0101": {
+      "count": 7,
+      "first_cycle": 15997,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/0110": {
+      "count": 7,
+      "first_cycle": 31948,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/0111": {
+      "count": 7,
+      "first_cycle": 48002,
+      "first_scenario": "random_seed_4103",
+      "first_seed": 4103,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/1000": {
+      "count": 6,
+      "first_cycle": 64344,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/1001": {
+      "count": 6,
+      "first_cycle": 80588,
+      "first_scenario": "random_seed_4105",
+      "first_seed": 4105,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/1010": {
+      "count": 6,
+      "first_cycle": 96522,
+      "first_scenario": "random_seed_4106",
+      "first_seed": 4106,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/1011": {
+      "count": 6,
+      "first_cycle": 112576,
+      "first_scenario": "random_seed_4107",
+      "first_seed": 4107,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/1100": {
+      "count": 6,
+      "first_cycle": 128880,
+      "first_scenario": "random_seed_4108",
+      "first_seed": 4108,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/1101": {
+      "count": 6,
+      "first_cycle": 144853,
+      "first_scenario": "random_seed_4109",
+      "first_seed": 4109,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/1110": {
+      "count": 6,
+      "first_cycle": 161136,
+      "first_scenario": "random_seed_4110",
+      "first_seed": 4110,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb/1111": {
+      "count": 544,
+      "first_cycle": 40,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb_register/control": {
+      "count": 285,
+      "first_cycle": 43,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb_register/irq_enable": {
+      "count": 102,
+      "first_cycle": 40,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb_register/irq_status": {
+      "count": 135,
+      "first_cycle": 15987,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "lite.wstrb_register/scratch": {
+      "count": 113,
+      "first_cycle": 26,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/ar_accepted": {
+      "count": 1,
+      "first_cycle": 32251,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/aw_pending": {
+      "count": 1,
+      "first_cycle": 32235,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/b_response_stalled": {
+      "count": 1,
+      "first_cycle": 32247,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/collecting": {
+      "count": 1,
+      "first_cycle": 97,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/idle": {
+      "count": 104,
+      "first_cycle": 15990,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/processing": {
+      "count": 1,
+      "first_cycle": 460,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/r_response_stalled": {
+      "count": 1,
+      "first_cycle": 32256,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/result_stalled": {
+      "count": 1,
+      "first_cycle": 16346,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/result_valid_and_ready": {
+      "count": 16,
+      "first_cycle": 32231,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.global_location/w_pending": {
+      "count": 1,
+      "first_cycle": 32240,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/axi_lite_responsive": {
+      "count": 1,
+      "first_cycle": 19,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/enable_clear": {
+      "count": 1,
+      "first_cycle": 7,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/irq_enable_contract": {
+      "count": 1,
+      "first_cycle": 17,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/irq_status_clear": {
+      "count": 1,
+      "first_cycle": 11,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/no_stale_result": {
+      "count": 1,
+      "first_cycle": 19,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/result_count_clear": {
+      "count": 1,
+      "first_cycle": 9,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/scratch_contract": {
+      "count": 1,
+      "first_cycle": 15,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/sequence_restart": {
+      "count": 1,
+      "first_cycle": 13,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/snapshot_valid_clear": {
+      "count": 1,
+      "first_cycle": 11,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.post_check/subsequent_legal_frame": {
+      "count": 1,
+      "first_cycle": 48143,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.soft_location/after_result": {
+      "count": 1,
+      "first_cycle": 175695,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.soft_location/collecting": {
+      "count": 26,
+      "first_cycle": 32049,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.soft_location/idle": {
+      "count": 1,
+      "first_cycle": 159362,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.soft_location/irq_pending": {
+      "count": 1,
+      "first_cycle": 127575,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.soft_location/processing": {
+      "count": 26,
+      "first_cycle": 48398,
+      "first_scenario": "random_seed_4103",
+      "first_seed": 4103,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "reset.soft_location/result_stalled": {
+      "count": 1,
+      "first_cycle": 143461,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.frame_type/early_tlast": {
+      "count": 20,
+      "first_cycle": 48038,
+      "first_scenario": "random_seed_4103",
+      "first_seed": 4103,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.frame_type/legal": {
+      "count": 151,
+      "first_cycle": 350,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.frame_type/missing_tlast": {
+      "count": 20,
+      "first_cycle": 64608,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.frame_type/oversized_discard": {
+      "count": 260,
+      "first_cycle": 64609,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.frame_type/reset_aborted": {
+      "count": 56,
+      "first_cycle": 32049,
+      "first_scenario": "random_seed_4102",
+      "first_seed": 4102,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_gap_length/0": {
+      "count": 45638,
+      "first_cycle": 61,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_gap_length/1": {
+      "count": 254,
+      "first_cycle": 128926,
+      "first_scenario": "random_seed_4108",
+      "first_seed": 4108,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_gap_length/16+": {
+      "count": 201,
+      "first_cycle": 205,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_gap_length/2-3": {
+      "count": 173,
+      "first_cycle": 16136,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_gap_length/4-15": {
+      "count": 121,
+      "first_cycle": 16102,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_stall_length/0": {
+      "count": 46369,
+      "first_cycle": 61,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_stall_length/1": {
+      "count": 1,
+      "first_cycle": 32260,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_stall_length/16-63": {
+      "count": 6,
+      "first_cycle": 145240,
+      "first_scenario": "random_seed_4109",
+      "first_seed": 4109,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_stall_length/2-3": {
+      "count": 7,
+      "first_cycle": 468275,
+      "first_scenario": "random_seed_4129",
+      "first_seed": 4129,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_stall_length/4-15": {
+      "count": 3,
+      "first_cycle": 209647,
+      "first_scenario": "random_seed_4113",
+      "first_seed": 4113,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.input_stall_length/64+": {
+      "count": 2,
+      "first_cycle": 532747,
+      "first_scenario": "random_seed_4133",
+      "first_seed": 4133,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_context/already_stalled": {
+      "count": 1703,
+      "first_cycle": 15973,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_context/disable_nearby": {
+      "count": 1,
+      "first_cycle": 79919,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_context/next_frame_input_active": {
+      "count": 9,
+      "first_cycle": 79914,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_context/reset_nearby": {
+      "count": 1,
+      "first_cycle": 143458,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_context/result_first_appears": {
+      "count": 94,
+      "first_cycle": 15972,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_length/0": {
+      "count": 30,
+      "first_cycle": 31921,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_length/1": {
+      "count": 1,
+      "first_cycle": 32230,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_length/16-63": {
+      "count": 13,
+      "first_cycle": 161091,
+      "first_scenario": "random_seed_4109",
+      "first_seed": 4109,
+      "sources": [
+        "results/coverage/random_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_length/2-3": {
+      "count": 26,
+      "first_cycle": 80552,
+      "first_scenario": "random_seed_4104",
+      "first_seed": 4104,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_length/4-15": {
+      "count": 39,
+      "first_cycle": 15976,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.output_stall_length/64+": {
+      "count": 15,
+      "first_cycle": 322784,
+      "first_scenario": "random_seed_4119",
+      "first_seed": 4119,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.result_behavior/back_to_back_results": {
+      "count": 2,
+      "first_cycle": 95794,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.result_behavior/delayed_handshake": {
+      "count": 92,
+      "first_cycle": 15976,
+      "first_scenario": "random_seed_4100",
+      "first_seed": 4100,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.result_behavior/normal_handshake": {
+      "count": 30,
+      "first_cycle": 31921,
+      "first_scenario": "random_seed_4101",
+      "first_seed": 4101,
+      "sources": [
+        "results/coverage/random_coverage.json",
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    },
+    "stream.result_behavior/reset_aborted_pending_result": {
+      "count": 2,
+      "first_cycle": 16346,
+      "first_scenario": "coverage_closure",
+      "first_seed": 9001,
+      "sources": [
+        "build/test-results/coverage/closure_coverage.json"
+      ],
+      "status": "hit"
+    }
+  },
+  "claim": "100% of defined required functional coverage bins",
+  "cross_coverage_percent": 100.0,
+  "final_holes": [],
+  "functional_coverage_percent": 100.0,
+  "hit_cross_bins": 114,
+  "hit_functional_bins": 149,
+  "hit_required_bins": 263,
+  "initial_holes": [
+    "algorithm.special_signal/exact_tie",
+    "algorithm.special_signal/full_scale_negative",
+    "algorithm.special_signal/full_scale_positive",
+    "algorithm.special_signal/near_nyquist_negative",
+    "algorithm.special_signal/near_nyquist_positive",
+    "algorithm.special_signal/zero",
+    "cross.address_response/misaligned_address_x_slverr",
+    "cross.address_response/ro_write_x_slverr",
+    "cross.address_response/undefined_address_x_slverr",
+    "cross.direction_backpressure/zero_or_near_zero_x_long",
+    "cross.direction_snr/zero_or_near_zero_x_30_plus",
+    "cross.direction_snr/zero_or_near_zero_x_lt_0",
+    "cross.enable_frame_state/clear_x_idle",
+    "cross.enable_frame_state/set_x_idle",
+    "cross.frame_reset/reset_aborted_x_collecting",
+    "cross.frame_reset/reset_aborted_x_processing",
+    "cross.frame_reset/reset_aborted_x_result_stalled",
+    "cross.irq_clear_result/clear_only",
+    "cross.irq_clear_result/clear_x_result",
+    "cross.irq_pending_soft_reset/pending",
+    "cross.legal_output_stall/1",
+    "cross.peak_range_snr/-95_to_-33_x_20_to_29",
+    "cross.peak_range_snr/-95_to_-33_x_lt_0",
+    "cross.peak_range_snr/0_x_30_plus",
+    "cross.peak_range_snr/0_x_lt_0",
+    "cross.soft_reset_state/after_result",
+    "cross.soft_reset_state/idle",
+    "cross.soft_reset_state/irq_pending",
+    "cross.soft_reset_state/result_stalled",
+    "irq.behavior/clear_and_result_same_cycle",
+    "irq.behavior/enable_with_status_pending",
+    "irq.behavior/global_reset_while_pending",
+    "irq.behavior/multiple_results_before_clear",
+    "irq.behavior/soft_reset_while_pending",
+    "lite.address_type/misaligned_address",
+    "lite.address_type/ro_write",
+    "lite.address_type/undefined_address",
+    "lite.b_stall_length/1",
+    "lite.response_type/slverr",
+    "reset.global_location/ar_accepted",
+    "reset.global_location/aw_pending",
+    "reset.global_location/b_response_stalled",
+    "reset.global_location/collecting",
+    "reset.global_location/processing",
+    "reset.global_location/r_response_stalled",
+    "reset.global_location/result_stalled",
+    "reset.global_location/result_valid_and_ready",
+    "reset.global_location/w_pending",
+    "reset.post_check/axi_lite_responsive",
+    "reset.post_check/enable_clear",
+    "reset.post_check/irq_enable_contract",
+    "reset.post_check/irq_status_clear",
+    "reset.post_check/no_stale_result",
+    "reset.post_check/result_count_clear",
+    "reset.post_check/scratch_contract",
+    "reset.post_check/sequence_restart",
+    "reset.post_check/snapshot_valid_clear",
+    "reset.post_check/subsequent_legal_frame",
+    "reset.soft_location/after_result",
+    "reset.soft_location/idle",
+    "reset.soft_location/irq_pending",
+    "reset.soft_location/result_stalled",
+    "stream.input_stall_length/1",
+    "stream.output_stall_context/disable_nearby",
+    "stream.output_stall_context/next_frame_input_active",
+    "stream.output_stall_context/reset_nearby",
+    "stream.output_stall_length/1",
+    "stream.result_behavior/back_to_back_results",
+    "stream.result_behavior/reset_aborted_pending_result"
+  ],
+  "initial_random_coverage_percent": 73.76425855513308,
+  "initial_random_required_hits": 194,
+  "required_bins": 263,
+  "required_cross_bins": 114,
+  "required_functional_bins": 149,
+  "schema_version": 1,
+  "total_required_coverage_percent": 100.0,
+  "waived_bins": {
+    "cross.amplitude_saturation/low_x_saturated": "Unreachable for legal Q1.15 input with the frozen wall-filter width and per-stage FFT scaling; 1,800-case regression also observes zero saturation.",
+    "cross.amplitude_saturation/near_full_scale_x_saturated": "Unreachable for legal Q1.15 input with the frozen wall-filter width and per-stage FFT scaling; 1,800-case regression also observes zero saturation.",
+    "cross.amplitude_saturation/nominal_x_saturated": "Unreachable for legal Q1.15 input with the frozen wall-filter width and per-stage FFT scaling; 1,800-case regression also observes zero saturation.",
+    "stream.result_behavior/sequence_wrap": "Natural wrap requires 2^32 controlled-top results; Phase 2 separately verifies the same wrapper with a near-wrap reset parameter."
+  }
+}

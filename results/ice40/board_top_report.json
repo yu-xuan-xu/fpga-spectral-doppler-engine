@@ -1,0 +1,43 @@
+{
+  "dsp_blocks": {
+    "available": 8,
+    "used": 8
+  },
+  "embedded_ram_blocks": {
+    "available": 30,
+    "used": 4
+  },
+  "estimated_fmax_mhz": 15.887641906738281,
+  "evidence": "synthesis_and_place_route_only_not_hardware_validated",
+  "global_buffers": {
+    "available": 8,
+    "used": 7
+  },
+  "initialized_sample_memory_mapping": {
+    "additional_ebr_vs_core": 0,
+    "additional_logic_cells_vs_core": 1063,
+    "board_top_sb_ram40_4k_cells": 4,
+    "conclusion": "The sample source adds no EBR cells and adds logic, so this build maps or optimizes the initialized sample source into logic rather than a distinct EBR.",
+    "core_sb_ram40_4k_cells": 4,
+    "rtl_declaration": "initialized unpacked SystemVerilog memory arrays",
+    "sample_source_inferred_as_additional_ebr": false,
+    "scope": "post-synthesis/PnR netlist comparison; no physical-board validation"
+  },
+  "logic_cells": {
+    "available": 5280,
+    "used": 5131
+  },
+  "resource_delta_vs_core": {
+    "embedded_ram_blocks_used": 0,
+    "logic_cells_used": 1063
+  },
+  "synthesized_cells": {
+    "sb_carry": 1128,
+    "sb_flip_flops": 858,
+    "sb_lut4": 4530
+  },
+  "target": "iCE40UP5K-SG48",
+  "target_frequency_mhz": 12.00004768371582,
+  "timing_pass": true,
+  "top": "board_top"
+}

@@ -1,0 +1,72 @@
+{
+  "evidence": "synthesis_and_place_route_only_not_hardware_validated",
+  "top": "board_top",
+  "target": "iCE40UP5K-SG48",
+  "demo_path": "BRAM sample -> Doppler core -> packet/CRC -> UART",
+  "constraint_mhz": 12.00004768371582,
+  "achieved_fmax_mhz": 15.887641906738281,
+  "timing_pass": true,
+  "utilization": {
+    "ICESTORM_DSP": {
+      "available": 8,
+      "used": 8
+    },
+    "ICESTORM_HFOSC": {
+      "available": 1,
+      "used": 1
+    },
+    "ICESTORM_LC": {
+      "available": 5280,
+      "used": 5131
+    },
+    "ICESTORM_LFOSC": {
+      "available": 1,
+      "used": 0
+    },
+    "ICESTORM_PLL": {
+      "available": 1,
+      "used": 0
+    },
+    "ICESTORM_RAM": {
+      "available": 30,
+      "used": 4
+    },
+    "ICESTORM_SPRAM": {
+      "available": 4,
+      "used": 0
+    },
+    "IO_I3C": {
+      "available": 2,
+      "used": 0
+    },
+    "SB_GB": {
+      "available": 8,
+      "used": 7
+    },
+    "SB_I2C": {
+      "available": 2,
+      "used": 0
+    },
+    "SB_IO": {
+      "available": 39,
+      "used": 2
+    },
+    "SB_LEDDA_IP": {
+      "available": 1,
+      "used": 0
+    },
+    "SB_RGBA_DRV": {
+      "available": 1,
+      "used": 0
+    },
+    "SB_SPI": {
+      "available": 2,
+      "used": 0
+    },
+    "SB_WARMBOOT": {
+      "available": 1,
+      "used": 0
+    }
+  },
+  "risk": "97% logic-cell utilization leaves minimal M2 change margin"
+}

@@ -1,0 +1,4 @@
+{
+  "failing_seeds": [],
+  "reproduce": "scripts/run_seeded_regression.py --seed <seed> --waves"
+}

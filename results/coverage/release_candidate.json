@@ -1,0 +1,184 @@
+{
+  "algorithm_regression": {
+    "alias_count": 0,
+    "configuration_count": 1800,
+    "direction_accuracy_high_snr": 1.0,
+    "fixed_float_within_one_bin_high_snr_fraction": 1.0,
+    "low_confidence_count": 944,
+    "maximum_saturation_count": 0,
+    "mean_absolute_error_m_s_scored": 0.000392438116292754,
+    "scored_count": 856,
+    "transition_count": 360
+  },
+  "automated_checks": {
+    "failed": 0,
+    "passed": 51,
+    "pytest": {
+      "case_names": [
+        "test_doppler_core_cocotb",
+        "test_packetizer_cocotb",
+        "test_v1_performance_cocotb",
+        "test_stream_contract_cocotb",
+        "test_axi_stream_cocotb",
+        "test_axi_sequence_wrap_cocotb",
+        "test_axi_legacy_equivalence_cocotb",
+        "test_axi_lite_regs_cocotb",
+        "test_axi_controlled_top_cocotb",
+        "test_random_system_regression_cocotb",
+        "test_coverage_closure_cocotb",
+        "test_export_contract",
+        "test_all_profiles_are_deterministic[steady]",
+        "test_all_profiles_are_deterministic[pulsatile]",
+        "test_all_profiles_are_deterministic[accelerated]",
+        "test_all_profiles_are_deterministic[reverse]",
+        "test_all_profiles_are_deterministic[irregular]",
+        "test_positive_and_reverse_sign",
+        "test_time_varying_profiles_honor_programmed_direction[pulsatile]",
+        "test_time_varying_profiles_honor_programmed_direction[accelerated]",
+        "test_time_varying_profiles_honor_programmed_direction[irregular]",
+        "test_snr_definition_statistically",
+        "test_float_and_fixed_recover_bin_centered_tones[2]",
+        "test_float_and_fixed_recover_bin_centered_tones[3]",
+        "test_float_and_fixed_recover_bin_centered_tones[16]",
+        "test_float_and_fixed_recover_bin_centered_tones[64]",
+        "test_float_and_fixed_recover_bin_centered_tones[127]",
+        "test_float_and_fixed_recover_bin_centered_tones[-2]",
+        "test_float_and_fixed_recover_bin_centered_tones[-3]",
+        "test_float_and_fixed_recover_bin_centered_tones[-16]",
+        "test_float_and_fixed_recover_bin_centered_tones[-64]",
+        "test_float_and_fixed_recover_bin_centered_tones[-127]",
+        "test_fixed_arithmetic_edges",
+        "test_window_full_scale_constant_stays_in_signed_16_bits[0.999969482421875]",
+        "test_window_full_scale_constant_stays_in_signed_16_bits[-1.0]",
+        "test_window_alternating_full_scale_saturates_to_signed_16_bits",
+        "test_round_shift_exact_half_away_from_zero[1-1-1]",
+        "test_round_shift_exact_half_away_from_zero[-1-1--1]",
+        "test_round_shift_exact_half_away_from_zero[3-1-2]",
+        "test_round_shift_exact_half_away_from_zero[-3-1--2]",
+        "test_round_shift_exact_half_away_from_zero[5-1-3]",
+        "test_round_shift_exact_half_away_from_zero[-5-1--3]",
+        "test_signed_mapping_and_tie_rule",
+        "test_confidence_rule_and_zero_spectrum",
+        "test_frame_labels_are_explicit",
+        "test_config_json_roundtrip",
+        "test_crc_known_check_and_packet_roundtrip",
+        "test_packet_rejects_corruption"
+      ],
+      "failed": 0,
+      "passed": 48,
+      "skipped": 0,
+      "total": 48
+    },
+    "standalone": {
+      "doppler_core": true,
+      "fft_iterative_256": true,
+      "signed_velocity_mapper": true
+    },
+    "total": 51
+  },
+  "branch": "zynq-axi-v2",
+  "bugs": {
+    "rtl_defects_found": 0,
+    "unexplained_failures": 0
+  },
+  "controlled_top_elaboration": {
+    "passed": true,
+    "xc7z020_resource_or_timing_claimed": false
+  },
+  "coverage": {
+    "cross_coverage_percent": 100.0,
+    "functional_coverage_percent": 100.0,
+    "hit_cross_bins": 114,
+    "hit_functional_bins": 149,
+    "hit_required_bins": 263,
+    "initial_random_coverage_percent": 73.76425855513308,
+    "required_bins": 263,
+    "required_cross_bins": 114,
+    "required_functional_bins": 149,
+    "total_required_coverage_percent": 100.0,
+    "waived_bins": {
+      "cross.amplitude_saturation/low_x_saturated": "Unreachable for legal Q1.15 input with the frozen wall-filter width and per-stage FFT scaling; 1,800-case regression also observes zero saturation.",
+      "cross.amplitude_saturation/near_full_scale_x_saturated": "Unreachable for legal Q1.15 input with the frozen wall-filter width and per-stage FFT scaling; 1,800-case regression also observes zero saturation.",
+      "cross.amplitude_saturation/nominal_x_saturated": "Unreachable for legal Q1.15 input with the frozen wall-filter width and per-stage FFT scaling; 1,800-case regression also observes zero saturation.",
+      "stream.result_behavior/sequence_wrap": "Natural wrap requires 2^32 controlled-top results; Phase 2 separately verifies the same wrapper with a near-wrap reset parameter."
+    }
+  },
+  "git_baseline_commit": "6c4b49f2ea32a8f8cf92d6efc9e4ff7ae0680084",
+  "known_limitations": [
+    "No SystemVerilog covergroups, code coverage, or toggle coverage",
+    "No UVM or AXI VIP",
+    "No Vivado/XSim, IP packaging, AXI DMA, or Zynq Processing System",
+    "No XC7Z020 synthesis, place-and-route, or timing closure",
+    "No ARM software or physical hardware validation",
+    "Icarus immediate assertions are used; concurrent SVA/bind is not claimed",
+    "Verilator is not installed; optional lint was not run"
+  ],
+  "legacy_implementation": {
+    "board_top": {
+      "dsp_used": 8,
+      "ebr_used": 4,
+      "estimated_fmax_mhz": 15.887641906738281,
+      "logic_cells_used": 5131,
+      "timing_pass": true
+    },
+    "core": {
+      "dsp_used": 8,
+      "ebr_used": 4,
+      "estimated_fmax_mhz": 17.065719604492188,
+      "logic_cells_used": 4068,
+      "timing_pass": true
+    },
+    "delta_vs_phase3": {
+      "board_dsp": 0,
+      "board_ebr": 0,
+      "board_fmax_mhz": 0.0,
+      "board_logic_cells": 0,
+      "core_dsp": 0,
+      "core_ebr": 0,
+      "core_fmax_mhz": 0.0,
+      "core_logic_cells": 0
+    }
+  },
+  "random_regression": {
+    "failed_seeds": [],
+    "first_seed": 4100,
+    "last_seed": 4199,
+    "reproduce": "scripts/run_seeded_regression.py --seed <seed> --waves",
+    "seed_count": 100
+  },
+  "release": "pre_vivado_simulation_release_candidate",
+  "release_commit": "commit containing this version-controlled report",
+  "rtl_freeze_audit": {
+    "passed": true,
+    "protected_rtl_changes_since_phase3": []
+  },
+  "schema_version": 1,
+  "system_metrics": {
+    "axi_lite_reads": 647,
+    "axi_lite_writes": 638,
+    "duplicated_results": 0,
+    "input_beats": 46387,
+    "irq_events": 122,
+    "lost_results": 0,
+    "malformed_frames": 20,
+    "output_results": 122,
+    "protocol_mismatches": 0,
+    "random_input_frames": 145,
+    "random_legal_frames": 125,
+    "register_mismatches": 0,
+    "reordered_results": 0,
+    "resets": 184,
+    "total_cycles": 1997277
+  },
+  "tool_versions": {
+    "architecture": "arm64",
+    "cocotb": "2.0.1",
+    "icepack": "installed; CLI does not report a version",
+    "iceprog": "installed; CLI does not report a version",
+    "nextpnr": "\"nextpnr-ice40\" -- Next Generation Place and Route (Version )",
+    "operating_system": "macOS-15.3.1-arm64-arm-64bit",
+    "python": "3.11.1",
+    "simulator": "Icarus Verilog version 13.0 (stable) (v13_0)",
+    "yosys": "Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 17.0.0.17000604)"
+  }
+}

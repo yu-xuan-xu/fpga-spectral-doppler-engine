@@ -1,0 +1,11 @@
+{
+  "configuration_count": 1800,
+  "scored_count": 856,
+  "low_confidence_count": 944,
+  "transition_count": 360,
+  "alias_count": 0,
+  "fixed_float_within_one_bin_high_snr_fraction": 1.0,
+  "direction_accuracy_high_snr": 1.0,
+  "mean_absolute_error_m_s_scored": 0.000392438116292754,
+  "maximum_saturation_count": 0
+}

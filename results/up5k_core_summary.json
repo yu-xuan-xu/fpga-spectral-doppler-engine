@@ -1,0 +1,76 @@
+{
+  "evidence": "synthesis_and_place_route_only_not_hardware_validated",
+  "target": "iCE40UP5K-SG48",
+  "constraint_mhz": 12.00004768371582,
+  "achieved_fmax_mhz": 17.065719604492188,
+  "timing_pass": true,
+  "latency_limit_cycles": 120000,
+  "utilization": {
+    "ICESTORM_DSP": {
+      "available": 8,
+      "used": 8
+    },
+    "ICESTORM_HFOSC": {
+      "available": 1,
+      "used": 1
+    },
+    "ICESTORM_LC": {
+      "available": 5280,
+      "used": 4068
+    },
+    "ICESTORM_LFOSC": {
+      "available": 1,
+      "used": 0
+    },
+    "ICESTORM_PLL": {
+      "available": 1,
+      "used": 0
+    },
+    "ICESTORM_RAM": {
+      "available": 30,
+      "used": 4
+    },
+    "ICESTORM_SPRAM": {
+      "available": 4,
+      "used": 0
+    },
+    "IO_I3C": {
+      "available": 2,
+      "used": 0
+    },
+    "SB_GB": {
+      "available": 8,
+      "used": 7
+    },
+    "SB_I2C": {
+      "available": 2,
+      "used": 0
+    },
+    "SB_IO": {
+      "available": 39,
+      "used": 1
+    },
+    "SB_LEDDA_IP": {
+      "available": 1,
+      "used": 0
+    },
+    "SB_RGBA_DRV": {
+      "available": 1,
+      "used": 0
+    },
+    "SB_SPI": {
+      "available": 2,
+      "used": 0
+    },
+    "SB_WARMBOOT": {
+      "available": 1,
+      "used": 0
+    }
+  },
+  "tools": {
+    "yosys": "Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 17.0.0.17000604)",
+    "nextpnr": "\"nextpnr-ice40\" -- Next Generation Place and Route (Version )",
+    "iverilog": "Icarus Verilog version 13.0 (stable) (v13_0)",
+    "icepack": "Usage: icepack [options] [input-file [output-file]]"
+  }
+}

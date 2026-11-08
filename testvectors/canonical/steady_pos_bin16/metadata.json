@@ -1,0 +1,7 @@
+{
+  "model_version": "m1-oracle-1.0",
+  "specification_version": "1.3",
+  "rounding": "nearest_ties_away_from_zero",
+  "fft_normalization": "1/256",
+  "warmup_frames": 1
+}

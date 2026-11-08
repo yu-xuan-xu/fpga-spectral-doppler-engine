@@ -1,0 +1,29 @@
+{
+  "dsp_blocks": {
+    "available": 8,
+    "used": 8
+  },
+  "embedded_ram_blocks": {
+    "available": 30,
+    "used": 4
+  },
+  "estimated_fmax_mhz": 17.065719604492188,
+  "evidence": "synthesis_and_place_route_only_not_hardware_validated",
+  "global_buffers": {
+    "available": 8,
+    "used": 7
+  },
+  "logic_cells": {
+    "available": 5280,
+    "used": 4068
+  },
+  "synthesized_cells": {
+    "sb_carry": 1115,
+    "sb_flip_flops": 725,
+    "sb_lut4": 3565
+  },
+  "target": "iCE40UP5K-SG48",
+  "target_frequency_mhz": 12.00004768371582,
+  "timing_pass": true,
+  "top": "doppler_resource_top"
+}

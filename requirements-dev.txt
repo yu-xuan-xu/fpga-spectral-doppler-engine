@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Code quality for the Python reference models
+ruff>=0.12,<1

@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "evidence": "rtl_simulation_measured_cycles_and_derived_rates",
+  "cycle_definition": "difference between sampled rising-edge transfer indices",
+  "single_frame_no_stall": {
+    "frame_count": 1,
+    "first_sample_cycles": [
+      1
+    ],
+    "end_of_frame_cycles": [
+      256
+    ],
+    "result_valid_cycles": [
+      15878
+    ],
+    "result_handshake_cycles": [
+      15878
+    ],
+    "first_sample_latency_cycles": [
+      15877
+    ],
+    "end_of_frame_latency_cycles": [
+      15622
+    ],
+    "result_handshake_latency_cycles": [
+      15622
+    ],
+    "cycles_per_frame_first_sample_to_result_handshake": [
+      15877
+    ],
+    "result_to_result_intervals_cycles": [],
+    "peak_bins": [
+      16
+    ],
+    "status": [
+      0
+    ]
+  },
+  "three_continuous_frames_no_stall": {
+    "frame_count": 3,
+    "first_sample_cycles": [
+      1,
+      1025,
+      16600
+    ],
+    "end_of_frame_cycles": [
+      256,
+      1280,
+      16855
+    ],
+    "result_valid_cycles": [
+      15878,
+      31453,
+      47028
+    ],
+    "result_handshake_cycles": [
+      15878,
+      31453,
+      47028
+    ],
+    "first_sample_latency_cycles": [
+      15877,
+      30428,
+      30428
+    ],
+    "end_of_frame_latency_cycles": [
+      15622,
+      30173,
+      30173
+    ],
+    "result_handshake_latency_cycles": [
+      15622,
+      30173,
+      30173
+    ],
+    "cycles_per_frame_first_sample_to_result_handshake": [
+      15877,
+      30428,
+      30428
+    ],
+    "result_to_result_intervals_cycles": [
+      15575,
+      15575
+    ],
+    "peak_bins": [
+      16,
+      -16,
+      16
+    ],
+    "status": [
+      0,
+      0,
+      0
+    ]
+  },
+  "fixed_output_stall": {
+    "requested_stall_cycles": 17,
+    "result_valid_cycle": 15878,
+    "result_handshake_cycle": 15895,
+    "observed_valid_to_handshake_cycles": 17,
+    "payload_stable": true
+  },
+  "reset_then_first_frame": {
+    "frame_count": 1,
+    "first_sample_cycles": [
+      1
+    ],
+    "end_of_frame_cycles": [
+      256
+    ],
+    "result_valid_cycles": [
+      15878
+    ],
+    "result_handshake_cycles": [
+      15878
+    ],
+    "first_sample_latency_cycles": [
+      15877
+    ],
+    "end_of_frame_latency_cycles": [
+      15622
+    ],
+    "result_handshake_latency_cycles": [
+      15622
+    ],
+    "cycles_per_frame_first_sample_to_result_handshake": [
+      15877
+    ],
+    "result_to_result_intervals_cycles": [],
+    "peak_bins": [
+      16
+    ],
+    "status": [
+      0
+    ]
+  },
+  "malformed_then_legal_frame": {
+    "malformed_accepted_samples": 20,
+    "legal_first_sample_cycle": 21,
+    "legal_end_of_frame_cycle": 276,
+    "result_handshake_cycle": 15898,
+    "result_status": 1,
+    "recovered": true
+  },
+  "sustained_result_interval_cycles": 15575,
+  "derived_throughput": {
+    "at_12_mhz_target": {
+      "clock_hz": 12000000.0,
+      "frames_per_second": 770.4654895666132,
+      "samples_per_second": 197239.16532905298
+    },
+    "at_15_89_mhz_board_top_estimated_fmax": {
+      "clock_hz": 15887641.906738281,
+      "frames_per_second": 1020.0733166445125,
+      "samples_per_second": 261138.7690609952
+    }
+  }
+}
